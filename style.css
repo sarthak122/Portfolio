@@ -85,7 +85,7 @@ container:hover {
 }
 .main {
   display: inline-flex;
-  min-width: 100%;
+  min-width: 90%;
 }
 .card
 {
