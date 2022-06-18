@@ -85,19 +85,9 @@ container:hover {
 }
 .main {
   display: inline-flex;
-  min-width: 90%;
+  min-width: 100%;
 }
-.card
-{
-  width: 300px;
-  height: 300px;
-  display: flex;
-}
-.card p
-{
-  align-items: center;
-  justify-content: center;
-}
+
 .card:hover {
   background-color: rgb(247, 147, 163);
   border-radius: 12px;
