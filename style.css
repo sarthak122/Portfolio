@@ -221,7 +221,10 @@ body {
     margin-top: 20px;
     font-size: 20px;
   }
-
+#div-3
+{
+  width: 90%;
+}
   #div-3 p ul li {
     font-size: 30px;
     text-align: justify;
@@ -251,7 +254,7 @@ body {
     width: fit-content;
   }
   .container1 {
-    width: 100%;
+    width: 90%;
   }
   .container1 div {
     font-size: 20px;
