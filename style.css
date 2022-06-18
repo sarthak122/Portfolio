@@ -1,15 +1,25 @@
 body {
   /* background-image: linear-gradient(to bottom right, rgb(241, 122, 241), rgba(239, 239, 11, 0.855), rgb(37, 252, 37)); */
+
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   margin-left: 50px;
-  background-image: linear-gradient(
-    140deg,
-    #eadedb 5%,
-    #bc70a4 50%,
-    #bfd641 75%
-  );
 }
 * {
   margin: 0;
@@ -63,6 +73,8 @@ container:hover {
   text-align: center;
   background-color: antiquewhite;
   font-family: "Times New Roman", Times, serif;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 #link {
   text-decoration: none;
@@ -74,6 +86,17 @@ container:hover {
 .main {
   display: inline-flex;
   min-width: 100%;
+}
+.card
+{
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+.card p
+{
+  align-items: center;
+  justify-content: center;
 }
 .card:hover {
   background-color: rgb(247, 147, 163);
@@ -134,18 +157,25 @@ container:hover {
 }
 
 .one-div {
-  width: 500px;
-  font-size: 30px;
+  width: fit-content;
+  color: white;
+  font-size: 50px;
+  background-color: #343f4f;
+  height: 100px;
+  padding: 9px;
 }
 
 .container1 {
-  width: 100%;
-  height: 220px;
+  margin-left: 20px;
+  height: 100px;
+  background-color: #f00d05;
+  overflow: hidden;
 }
 .container1 > div {
-  font-size: 30px;
+  font-size: 70px;
   text-transform: uppercase;
-  color: #f00d05;
+  margin-left: 10px;
+  padding: 5px;
   opacity: 0;
   height: 0px;
 }
