@@ -2,6 +2,7 @@ body {
   /* background-image: linear-gradient(to bottom right, rgb(241, 122, 241), rgba(239, 239, 11, 0.855), rgb(37, 252, 37)); */
 
   min-height: 100vh;
+
   background-image: linear-gradient(
     to right top,
     #d16ba5,
@@ -17,6 +18,11 @@ body {
     #46eefa,
     #5ffbf1
   );
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
   align-items: center;
   justify-content: center;
   margin-left: 20px;
@@ -112,7 +118,7 @@ body {
   height: 230px;
   width: 230px;
   margin: 40px;
-  
+
   font-size: larger;
   text-align: center;
   background-color: antiquewhite;
@@ -135,7 +141,6 @@ body {
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    
 }
 
 .foot {
@@ -195,5 +200,61 @@ body {
   100% {
     opacity: 0;
     height: 0px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  body {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+  }
+  .first-div {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 20px;
+  }
+  #div-2 {
+    width: 90%;
+    height: 130px;
+  }
+  .header-con .text-1 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #div-3 p ul li {
+    font-size: 30px;
+    text-align: justify;
+    width: fit-content;
+  }
+  .main {
+    margin: 60px;
+  }
+
+  .card {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+  }
+  .card p {
+    padding: 15px;
+    font-size: 15px;
+  }
+  .foot {
+    display: inline-block;
+    padding: 0;
+  }
+  .one-div {
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: fit-content;
+  }
+  .container1 {
+    width: 100%;
+  }
+  .container1 div {
+    font-size: 20px;
+    
   }
 }
