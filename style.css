@@ -19,9 +19,9 @@ body {
     #5ffbf1
   );
   width: 100%;
-  background-position: center;
+  background-repeat:none;
   
-  background-size: contain;
+  background-size: 1500px 1500px;
 
   align-items: center;
   justify-content: center;
