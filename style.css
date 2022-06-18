@@ -64,7 +64,7 @@ container:hover {
 }
 .card {
   display: inline-block;
-  padding: 20px;
+/*   padding: 20px; */
   height: 250px;
   width: 300px;
   margin: 40px;
